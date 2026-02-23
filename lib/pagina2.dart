@@ -25,8 +25,9 @@ class PaginaDos extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(20),
               child: Image.network(
-                'https://picsum.photos/300/200',
+                'https://www.ryl.mx/cdn/shop/files/estudio-fotografico-moda-escritorio.jpg?v=1760982784&width=2000',
                 height: 200,
+                width: 300,
                 fit: BoxFit.cover, // Ensure the image covers the area
                 loadingBuilder: (BuildContext context, Widget child, ImageChunkEvent? loadingProgress) {
                   if (loadingProgress == null) {
